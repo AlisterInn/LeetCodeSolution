@@ -4,8 +4,8 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        if len(nums) < 2:
-            return  nums
+        if len(nums) < 1:
+            return 0
         else:
             provious_num = 0
             for current_num in range(1, len(nums)):
